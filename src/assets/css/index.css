@@ -1,0 +1,155 @@
+.el-table th {
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 10px 0!important;
+}
+
+.el-table tr td {
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 7px 0!important;
+}
+
+.el-table td .cell,
+.el-table th .cell {
+    height: 100%;
+    font-family: inherit!important;
+    line-height: inherit!important;
+    padding: 0 5px 0 5px!important;
+}
+
+.el-table .cell button {
+    padding: 0px 0;
+}
+
+.ah_table_lead th {
+    text-align: center;
+    background-color: #F5F7FA;
+    color: #333333;
+}
+.ah_table_lead_d2d4d8 th {
+  text-align: center;
+  background-color: #d2d4d8;
+  color: #333333;
+  padding: 5px 0!important;
+
+}
+
+.ah_t_lead th {
+    text-align: none;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+    background-color: #E8F3FE
+}
+
+.el-table td,
+.el-table th.is-leaf {
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.elm_success {
+    background: rgba(76, 175, 80, 0.85);
+    border-color: rgba(76, 175, 80, 0.85);
+    border-radius: 4px;
+}
+
+.elm_error {
+    background: rgba(244, 67, 54, 0.85);
+    border-color: rgba(244, 67, 54, 0.85);
+    border-radius: 4px;
+}
+
+.elm .el-message__content {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: PingFangSC-Regular;
+    word-wrap: break-word;
+    max-width: 500px;
+}
+
+.ah_elbtn_flag {
+    display: none!important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.el-input-group__prepend {
+    background-color: #fff;
+    border: none;
+    padding: 0 10px 0 0;
+}
+
+.f_14px {
+    font-size: 14px;
+}
+
+.f_16px {
+    font-size: 16px;
+}
+
+.f_12px {
+    font-size: 12px;
+}
+
+.f_18px {
+    font-size: 18px;
+}
+
+._elp {
+    font-size: 16px;
+    line-height: 25px;
+    width: 100%;
+}
+
+._elb {
+    width: 100%;
+    word-break: break-all;
+    text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+    display: -webkit-box;
+    /** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical;
+    /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 1;
+    /** 显示的行数 **/
+    overflow: hidden;
+}
+
+._elp ._elp_btn {
+    border: 0;
+    margin-left: 20px;
+    float: right;
+    line-height: 23px;
+    padding: 0!important;
+    outline: none;
+    user-select: none;
+}
+
+._elp button:hover {
+    color: #409eff
+}
+
+.no_xscroll .el-table__body-wrapper{
+  overflow: hidden!important;
+}
+.no_xscroll .el-table__fixed{
+  height: 29px!important;
+}
+.virtualDialog .el-dialog__body{
+    padding-top:0px; 
+}
